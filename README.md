@@ -1,4 +1,4 @@
-## client-python [![Build Status](https://travis-ci.org/bblfsh/client-python.svg?branch=master)](https://travis-ci.org/bblfsh/client-python) [![PyPI](https://img.shields.io/pypi/v/nine.svg)](https://pypi.python.org/pypi/bblfsh)
+## client-python [![Build Status](https://travis-ci.org/bblfsh/client-python.svg?branch=master)](https://travis-ci.org/bblfsh/client-python) [![PyPI](https://img.shields.io/pypi/v/bblfsh.svg)](https://pypi.python.org/pypi/bblfsh)
 
 [Babelfish](https://doc.bblf.sh) Python client library provides functionality to both
 connect to the Babelfish server to parse code
@@ -13,7 +13,7 @@ The recommended way to install *client-python* is using our pip [package](https:
 pip install bblfsh
 ```
 
-### From the source code
+### From sources
 
 ```bash
 git clone https://github.com/bblfsh/client-python.git
