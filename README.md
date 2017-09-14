@@ -32,7 +32,7 @@ sudo apt install libxml2-dev
 
 ## Usage
 
-A small example of how parse a Python file and extract the import declarations from the [UAST](https://doc.bblf.sh/uast/specification.html).
+A small example of how to parse a Python file and extract the import declarations from the [UAST](https://doc.bblf.sh/uast/specification.html).
 
 If you don't have a bblfsh server running you can execute it using the following command:
 
@@ -40,7 +40,7 @@ If you don't have a bblfsh server running you can execute it using the following
 docker run --privileged --rm -it -p 9432:9432 --name bblfsh bblfsh/server
 ```
 
-Please read the [getting started](https://doc.bblf.sh/user/getting-started.html) guide, to learn more about how to use and deploy a bblfsh server.
+Please, read the [getting started](https://doc.bblf.sh/user/getting-started.html) guide to learn more about how to use and deploy a bblfsh server.
 
 ```python
 from bblfsh import BblfshClient, filter
